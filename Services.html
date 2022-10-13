@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name = 'viewport' content = 'width = device-width'>
+    <title> Insta-Tek </title>
+    <link rel = 'stylesheet' href = 'css\main.css'>
+    <link rel = 'preconnect' href = 'https://fonts.gstatic.com'>
+    <link href = 'https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap' rel = 'stylesheet'>
+    <link rel = 'stylesheet' href = 'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+    
+</head>
+
+<body>
+    <section class = 'header'>
+        <nav>
+            <a href = 'index.html'><img src = 'css/images/High Resolution Logo - Transparent Background (1).png'></a>    
+            <div class = 'sidenav'>
+                <ul id = 'mySidenav'>
+                    <i class = 'fa fa-times' id = 'hideMenu' onclick="hideMenu()"></i>
+                    <li class = 'hover'><a href = ''>Home</a></li>
+                    <li class = 'hover'><a href = 'Services.html'>Services</a></li>
+                    <li class = 'hover'><a href = 'Gallery.html'>Gallery</a></li>
+                    <li class = 'hover'><a href = 'About.html'>About</a></li>
+                    <li class = 'hover'><a href = 'Contact.html'>Contact</a></li>
+                </ul>
+            </div>
+            <i class = 'fa fa-bars' id = 'showMenu' onclick="showMenu()"></i>
+        </nav>
+        
+        <div class='text-box'>
+            <h1>Services</h1>
+            <p>Making a website i now one of the easiest things in the world.<br>You just need to learn HTML, CSS and Javascript!</p>
+            <a href = '' class = 'tb-btn'> Visit us to know more</a>
+        </div>
+    
+    </section>
+    
+<script>
+    
+    function showMenu(){
+        var menu = document.getElementById("mySidenav");
+        menu.style.display = 'block';
+    }
+    
+    function hideMenu(){
+        var menu = document.getElementById('mySidenav');
+        menu.style.display = 'none';
+    }
+</script>
+</body>
+
+</html>

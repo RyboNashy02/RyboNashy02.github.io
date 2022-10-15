@@ -174,3 +174,11 @@ nav i.fa{
         font: normal normal normal 25px/1 FontAwesome
     }
 }
+
+/*Service Section*/
+.course{
+    width: 80%;
+    margin: auto;
+    text-align: centre;
+    padding-top: 100px;
+}

@@ -7,7 +7,7 @@
 
 /*Background*/
 #header{
-    height: 100vh;
+    height: 100px;
     background: url(css/images/background.jpg); 
-    background-size: contain;
+    background-size: cover;
 }

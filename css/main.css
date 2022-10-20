@@ -8,6 +8,6 @@
 /*Background*/
 #header{
     height: 100px;
-    background: url(css/images/background.jpg); 
+    background: url('css/images/background.jpg'); 
     background-size: cover;
 }

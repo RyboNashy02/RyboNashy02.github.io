@@ -14,6 +14,9 @@ body{
 #header{
     width: 100%;
     height: 100vh;
+}
+
+div.img{
     background-size: cover;
     background-position: center;
 }

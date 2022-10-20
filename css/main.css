@@ -14,9 +14,10 @@ body{
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url(RyboNashy02.github.io/css/images/background.jpg);
-    
+    background-size: cover;
+    background-position: center;
 }
+
 /*Stops nav bar icons from appearing*/
 nav i.fa{
     display: none;

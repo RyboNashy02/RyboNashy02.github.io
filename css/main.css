@@ -6,6 +6,11 @@
     box-sizing: border-box;
 }
 
+body{
+    background: #080808;
+    color: #fff;
+}
+
 /*Stops nav bar icons from appearing*/
 nav i.fa{
     display: none;

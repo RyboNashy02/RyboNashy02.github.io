@@ -9,6 +9,6 @@
 #header{
     height: 100vh;
     padding = 4px;
-    background: url('css/images/background.jpg'); 
+    background: url('images/background.jpg'); 
     background-size: cover;
 }
